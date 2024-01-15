@@ -9,18 +9,21 @@
 <body>
     <header>
         <h1>Metric/Imperial Unit Conversion</h1>
-        <input type="text"></input>
-        <button id="btn-convert">Convert</button>
+        <input type="text" placeholder="0"></input>
+        <button type="button" btn-convert">Convert</button>
     </header>
     <section class="conversions">
-        <div id="length">
+        <div class="measurements">
             <h2>Length (Meter/Feet)</h2>
+            <p id="length"></p>
         </div>
-        <div id="volume">
+        <div class="measurements">
             <h2>Volume (Liters/Gallons)</h2>
+            <p id="volume"></p>
         </div>
-        <div id="mass">
+        <div class="measurements">
             <h2>Mass (Kilograms/Pounds)</h2>
+            <p id="mass"></p>
         </div>
     </section>
     <script src="index.js"></script>
