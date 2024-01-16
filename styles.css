@@ -32,6 +32,11 @@ input {
     margin-bottom: 20px;
 }
 
+/* input placeholder color */
+::placeholder {
+    color: #fff;
+}
+
 button {
     border-radius: 5px;
     padding: 10px 20px;
