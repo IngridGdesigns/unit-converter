@@ -21,7 +21,7 @@ function multiplyAndRound(number, conversionNumber) {
 
 function convert(number, measurement) {
         if(!number){
-            number = 20; // placeholder
+            number = 0; // placeholder
         }
       
         if(measurement === lengthUnit){
@@ -54,7 +54,7 @@ function convert(number, measurement) {
 
 //loads default values when page loads
 window.addEventListener('load', () => { 
-    let stringNum = 20;
+    let stringNum = 0;
     let num = Number(stringNum);
     
     lengthUnit.textContent = convert(num, lengthUnit);
