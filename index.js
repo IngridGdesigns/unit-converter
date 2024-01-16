@@ -1,22 +1,4 @@
 
-/*
-To-do: Calculate function for length, volume, mass
-
-1 meter = 3.281 feet - 
-Formula:
-m ÷ 0.3048 = ft
-
-1 liter = 0.264 gallon
-Formula:
-L ÷ 3.785411784 = US gal
-
-
-1 kilogram = 2.204 pound
-Formula:
-kg ÷ 0.45359237 = lb
-
-*/
-
 let lengthUnit = document.getElementById("length");
 let volumeUnit = document.getElementById("volume");
 let massUnit = document.getElementById("mass");
