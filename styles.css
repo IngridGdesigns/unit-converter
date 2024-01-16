@@ -29,14 +29,14 @@ input {
     font-weight: 800;
     font-size: 58px;
     width: 100px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 button {
     border-radius: 5px;
     padding: 10px 20px;
     background: #FFF;
-    padding: 9px 27.5px;
+    padding: 12px 28px;
     justify-content: center;
     border: none;
 }
