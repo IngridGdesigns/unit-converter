@@ -6,6 +6,8 @@ Solo project to create unit converter using vanilla JavaScript, CSS flexbox and 
 
 ### Unit Conversion Formulas
 
+Here are the following formulas:
+
 ```
 Calculate length, volume, mass
 
@@ -16,7 +18,6 @@ m ÷ 0.3048 = ft
 1 liter = 0.264 gallon
 Formula:
 L ÷ 3.785411784 = US gal
-
 
 1 kilogram = 2.204 pound
 Formula:
