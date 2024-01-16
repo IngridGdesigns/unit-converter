@@ -4,6 +4,7 @@ body {
     padding: 0;
     text-align: center;
     background-color: black;
+    font-family: Inter;
     width: 600px;
 }
 
@@ -57,6 +58,8 @@ button:hover {
     font-style: normal;
     font-weight: 600;
     background-color: #E5E7EB;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .measurements {
