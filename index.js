@@ -69,6 +69,7 @@ btnConvert.addEventListener("click", () => {
     lengthUnit.textContent = convert(num, lengthUnit);
     volumeUnit.textContent = convert(num, volumeUnit);
     massUnit.textContent = convert(num, massUnit);
- 
+    
+    inputNum.value = ""; //clear input field
 })
 
