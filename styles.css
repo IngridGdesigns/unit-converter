@@ -4,9 +4,7 @@ body {
     padding: 0;
     text-align: center;
     background-color: black;
-    /* flex-basis: 50px; */
-    width: 550px;
-
+    width: 600px;
 }
 
 header {
@@ -14,9 +12,11 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    /* background: #6943FF; */
     background: linear-gradient(#e66, #919);
     color: #fff;
     padding: 30px 0 50px 0;
+    border-radius: 5px;
 }
 
 input {
@@ -41,8 +41,8 @@ button {
 }
 
 button:hover {
-    color: #FAFEC2;
-    background-color: #919;
+    color: #fff;
+    background-color: #340B5E;
     font-weight: 600;
 }
 
@@ -50,7 +50,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 30px 20px 0 20px;
+    padding: 30px 15px 0 15px;
     color: #5A537B;
     font-family: Inter;
     font-size: 20px;
@@ -60,17 +60,15 @@ button:hover {
 }
 
 .measurements {
-    background-color: lightgreen;
-    /* width: 500px; */
-    /* height: 100px; */
-    /* align-content: center; */
-
+    background-color: #FFFFFF;
     padding: 30px;
     margin-bottom: 20px;
+    flex-shrink: 1;
 }
 
 
 p {
     color: #5A537B;
     font-size: 15px;
+    font-weight: 400;
 }
