@@ -4,7 +4,7 @@ body {
     padding: 0;
     text-align: center;
     background-color: black;
-    font-family: Inter;
+    /* flex-basis: 50px; */
     width: 550px;
 
 }
@@ -20,7 +20,16 @@ header {
 }
 
 input {
-    align-self: center;
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    font-weight: 800;
+    font-size: 58px;
+    width: 100px;
+    margin-bottom: 25px;
+
 }
 
 button {
@@ -38,6 +47,7 @@ button:hover {
     justify-content: space-between;
     padding: 30px 20px 0 20px;
     color: #5A537B;
+    font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
