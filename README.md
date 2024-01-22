@@ -9,12 +9,15 @@ Convert between different units of measurement with the tool, length, volume, ma
  - Added confetti from conjetti.js library, triggers each time the button is clicked when input is added.
  - Resets input after button is clicked
 
+View Confetti feature: 
+
+ ![gif app in use](https://github.com/IngridGdesigns/unit-converter/blob/main/unit-converter.gif)
+
 Source: Used [CheckyourMath.com](https://www.checkyourmath.com/convert/length/km_feet.php) to get formulas
 
-Live site renamed to [Conversion-tool](https://conversion-tool.netlify.app/)
+Live site: (renamed) [Conversion-tool](https://conversion-tool.netlify.app/)
 
 <img src="https://github.com/IngridGdesigns/unit-converter/blob/main/unitConverter-screenshot.png" width="50%" height="50%">
-
 
 
 ### Unit Conversion Formulas
@@ -37,5 +40,6 @@ Formula:
 kg ÷ 0.45359237 = lb
 
 ```
+
 
 
