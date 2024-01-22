@@ -2,12 +2,19 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d98c8093-34c6-4ae2-b9f8-f1cf35e75134/deploy-status)](https://app.netlify.com/sites/conversion-tool/deploys)
 
-Conversion tool using vanilla JavaScript, CSS flexbox and HTML DOM.
-Convert between different units of measurement with the tool, length, volume, mass
+Solo project: Conversion tool using vanilla JavaScript, CSS flexbox and HTML DOM.
+Convert between different units of measurement with the tool, length, volume, mass.
+
+### Feature added: 
+ - Added confetti from conjetti.js library, triggers each time the button is clicked when input is added.
+ - Resets input after button is clicked
 
 Source: Used [CheckyourMath.com](https://www.checkyourmath.com/convert/length/km_feet.php) to get formulas
 
 Live site renamed to [Conversion-tool](https://conversion-tool.netlify.app/)
+
+<img src="https://github.com/IngridGdesigns/unit-converter/blob/main/assets/unitConverter-screenshot.png" width="50%" height="50%">
+<img src="https://github.com/IngridGdesigns/unit-converter/blob/main/assets/unit-converter.gif">
 
 ### Unit Conversion Formulas
 
