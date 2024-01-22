@@ -5,6 +5,8 @@
 Solo project: Conversion tool using vanilla JavaScript, CSS flexbox and HTML DOM.
 Convert between different units of measurement with the tool, length, volume, mass.
 
+Live site: (renamed) [Conversion-tool](https://conversion-tool.netlify.app/)
+
 ### Feature added: 
  - Added confetti from conjetti.js library, triggers each time the button is clicked when input is added.
  - Resets input after button is clicked
@@ -15,7 +17,6 @@ View Confetti feature:
 
 Source: Used [CheckyourMath.com](https://www.checkyourmath.com/convert/length/km_feet.php) to get formulas
 
-Live site: (renamed) [Conversion-tool](https://conversion-tool.netlify.app/)
 
 <img src="https://github.com/IngridGdesigns/unit-converter/blob/main/unitConverter-screenshot.png" width="50%" height="50%">
 
