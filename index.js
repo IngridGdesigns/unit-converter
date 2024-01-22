@@ -18,7 +18,6 @@ function multiplyAndRound(number, conversionNumber) {
     return rounded;
 }
 
-
 function convert(number, measurement) {
         if(!number){
             number = 0; // placeholder
@@ -49,7 +48,6 @@ function convert(number, measurement) {
             const massConversion = `${number} kilos = ${kilosToPounds} pounds | ${number} pounds = ${poundsToKilos} kilos`;
             return massConversion;
         }
-    
 }
 
 //loads default values when page loads
@@ -62,14 +60,40 @@ window.addEventListener('load', () => {
     massUnit.textContent = convert(num, massUnit);
 })
 
-btnConvert.addEventListener("click", () => {
+btnConvert.addEventListener("click", () => {   
     let stringNum = inputNum.value;
     let num = parseInt(stringNum);
     
-    lengthUnit.textContent = convert(num, lengthUnit);
-    volumeUnit.textContent = convert(num, volumeUnit);
-    massUnit.textContent = convert(num, massUnit);
-    
+    if (num) {
+        triggerConfettiParty();
+        lengthUnit.textContent = convert(num, lengthUnit);
+        volumeUnit.textContent = convert(num, volumeUnit);
+        massUnit.textContent = convert(num, massUnit);
+    }
     inputNum.value = ""; //clear input field
-})
+   
+});
+
+//calls confetti from file
+function triggerConfettiParty() {
+     const start = () => {
+        setTimeout(function() {
+            confetti.start()
+            confetti.gradient = true;
+        }, /*1000*/); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
+    };
+
+    //stopping confetti
+    const stop = () => {
+        setTimeout(function() {
+            confetti.stop()
+        }, 2000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+    };
+
+    
+
+    start();
+    stop();
+}
+
 
