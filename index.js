@@ -83,7 +83,6 @@ function triggerConfettiParty() {
         }, /*1000*/); // 1000 is time that after 1 second start the confetti ( 1000 = 1 sec)
     };
 
-    //stopping confetti
     const stop = () => {
         setTimeout(function() {
             confetti.stop()
