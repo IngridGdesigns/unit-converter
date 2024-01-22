@@ -1,10 +1,12 @@
 html,
 body {
-    margin: 20px auto;
-    padding: 0;
     text-align: center;
     background-color: black;
     font-family: Inter;
+}
+
+main {
+    margin: 20px auto;
     width: 600px;
 }
 
@@ -73,7 +75,6 @@ button:hover {
     margin-bottom: 20px;
     flex-shrink: 1;
 }
-
 
 p {
     color: #5A537B;
