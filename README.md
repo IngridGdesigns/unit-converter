@@ -8,7 +8,7 @@ Convert between different units of measurement with the tool, length, volume, ma
 Live site: (renamed) [Conversion-tool](https://conversion-tool.netlify.app/)
 
 ### Feature added: 
- - Added confetti from conjetti.js library, triggers each time the button is clicked when input is added.
+ - Added confetti from conjetti.js library (demo)[https://coderz90.github.io/confetti/], triggers each time the button is clicked when input is added.
  - Resets input after button is clicked
 
 View Confetti feature: 
