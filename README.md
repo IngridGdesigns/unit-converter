@@ -13,9 +13,9 @@ Source: Used [CheckyourMath.com](https://www.checkyourmath.com/convert/length/km
 
 Live site renamed to [Conversion-tool](https://conversion-tool.netlify.app/)
 
-<img src="https://github.com/IngridGdesigns/unit-converter/blob/main/assets/unitConverter-screenshot.png" width="50%" height="50%">
+<img src="https://github.com/IngridGdesigns/unit-converter/blob/main/unitConverter-screenshot.png" width="50%" height="50%">
 
-![gif app in use]("https://github.com/IngridGdesigns/unit-converter/blob/main/unit-converter.gif")
+
 
 ### Unit Conversion Formulas
 
