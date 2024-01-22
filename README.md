@@ -15,13 +15,9 @@ View Confetti feature:
 
  ![gif app in use](https://github.com/IngridGdesigns/unit-converter/blob/main/unit-converter.gif)
 
-Source: Used [CheckyourMath.com](https://www.checkyourmath.com/convert/length/km_feet.php) to get formulas
-
-
-<img src="https://github.com/IngridGdesigns/unit-converter/blob/main/unitConverter-screenshot.png" width="50%" height="50%">
-
-
 ### Unit Conversion Formulas
+
+Source: Used [CheckyourMath.com](https://www.checkyourmath.com/convert/length/km_feet.php) to get formulas
 
 Here are the following formulas:
 
@@ -42,5 +38,5 @@ kg ÷ 0.45359237 = lb
 
 ```
 
-
+<img src="https://github.com/IngridGdesigns/unit-converter/blob/main/unitConverter-screenshot.png" width="50%" height="50%">
 
