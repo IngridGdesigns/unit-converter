@@ -10,6 +10,18 @@ main {
     width: 600px;
 }
 
+.border {
+    border-radius: 5px;
+}
+
+.addColor {
+    color: #fff;
+}
+
+.addBackground {
+    background-color: #fff;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -17,17 +29,13 @@ header {
     justify-content: space-evenly;
     /* background: #6943FF; */
     background: linear-gradient(#e66, #919);
-    color: #fff;
     padding: 30px 0 50px 0;
-    border-radius: 5px;
     user-select: none;
 }
 
 input {
     text-align: center;
-    color: #fff;
     background-color: transparent;
-    border-radius: 5px;
     border: 2px solid #919;
     font-weight: 800;
     font-size: 58px;
@@ -38,13 +46,11 @@ input {
 /* input placeholder color */
 ::placeholder {
     color: #fff;
+    background-color: transparent;
 }
 
 button {
-    border-radius: 5px;
     padding: 10px 20px;
-    background: #FFF;
-    padding: 12px 28px;
     justify-content: center;
     border: none;
 }
