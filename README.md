@@ -11,7 +11,8 @@ Live site: (renamed) [Conversion-tool](https://conversion-tool.netlify.app/)
  - Added confetti from conjetti.js library (demo)[https://coderz90.github.io/confetti/], triggers each time the button is clicked when input is added.
  - Resets input after button is clicked
 
-View Confetti feature: 
+**View Confetti feature:**
+
 Used [gif maker](https://imgflip.com/gif-maker)
  ![gif app in use](https://github.com/IngridGdesigns/unit-converter/blob/main/unit-converter.gif)
 
